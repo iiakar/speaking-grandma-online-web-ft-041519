@@ -4,7 +4,7 @@ def speak_to_grandma(whatever)
     return  "I LOVE YOU TOO PUMPKIN!"
   #els whatever != (whatever).upcase 
 #return "HUH?! SPEAK UP, SONNY!"
-else whatever = (whatever).downcase #check
+else whatever = (whatever).upcase #check
 return "'NO, NOT SINCE1938!"
 
 
