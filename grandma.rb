@@ -1,17 +1,57 @@
-def speak_to_grandma(whatever)
+
+def speak_to_grandma(phrase)
+
+    if phrase == "I LOVE YOU GRANDMA!"
+      return "I LOVE YOU TOO PUMPKIN!"
+    
+    elsif phrase == phrase.downcase
+  		return "HUH?! SPEAK UP, SONNY!"
+    elsif phrase == phrase.downcase
+      return "HUH?! SPEAK UP, SONNY!"
+    elsif phrase == phrase.upcase
+      return "NO, NOT SINCE 1938!"
+    # NO, NOT SINCE 1938!
+    else
+  		return "NO, NOT SINCE 1938!"
+    end
+# However if you say 'I LOVE YOU GRANDMA!', she should respond with
+# 'I LOVE YOU TOO PUMPKIN!'
+end
+
+speak_to_grandma("HELLO THERE")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#def speak_to_grandma(whatever)
   
-  if whatever = (whatever).upcase 
-    return  "I LOVE YOU TOO PUMPKIN!"
+ # if whatever = (whatever).upcase 
+  #  return  "I LOVE YOU TOO PUMPKIN!"
   #els whatever != (whatever).upcase 
 #return "HUH?! SPEAK UP, SONNY!"
-else whatever = (whatever).upcase #check
-return "'NO, NOT SINCE1938!"
+#else whatever = (whatever).upcase #check
+#return "'NO, NOT SINCE1938!"
 
 
 
 
-end
-end
+#end
+#end
 
 
 
